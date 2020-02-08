@@ -1,0 +1,12 @@
+{
+    "name": "com.ecasillas.prefabreplacer",
+    "version": "1.0.0",
+    "displayName": "Prefab Replacer",
+    "description": "A tool to replace scene objects by prefabs in Unity",
+    "unity": "2018.4",
+    "author": {
+      "name": "Ed Casillas",
+      "email": "ed@exagames-studio.com",
+      "url": "https://edu.itch.io"
+    }
+  }
