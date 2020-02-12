@@ -38,6 +38,7 @@ public class PrefabReplacer : EditorWindow {
 					newObject.transform.localRotation = selected.transform.localRotation;
 					newObject.transform.localScale    = selected.transform.localScale;
 					newObject.transform.SetSiblingIndex(selected.transform.GetSiblingIndex());
+					newObject.SetActive(selected.activeSelf);
 					Undo.DestroyObjectImmediate(selected);
 				}
 			}
