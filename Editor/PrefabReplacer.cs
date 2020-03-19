@@ -1,5 +1,4 @@
 ﻿using UnityEditor;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class PrefabReplacer : EditorWindow {
@@ -9,7 +8,7 @@ public class PrefabReplacer : EditorWindow {
 	[SerializeField] private Vector3 scaleOffset;
 	[SerializeField] private bool doNotRemoveOriginal;
 
-	[MenuItem("Tools/Prefab Replacer")]
+	[MenuItem("Tools/Prefab Replacer...")]
 	private static void CreateReplaceWithPrefab() { GetWindow<PrefabReplacer>(); }
 
 	private void OnGUI() {
